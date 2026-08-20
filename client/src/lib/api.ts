@@ -1,6 +1,6 @@
 import axios, { AxiosError, InternalAxiosRequestConfig } from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || '/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://task-management-phi-lemon.vercel.app/api';
 
 export const api = axios.create({
   baseURL: API_URL,
